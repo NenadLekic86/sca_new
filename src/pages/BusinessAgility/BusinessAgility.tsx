@@ -1,7 +1,7 @@
 // import React from 'react'
 import './businessAgility.scss'
 import Waves from '../../assets/images/svg/Waves';
-import ImgOne from '../../assets/images/businessAgility/BusinessAgilityGamificationImg1.webp'
+import ImgOne from '../../assets/images/BusinessAgility/BusinessAgilityGamificationImg1.webp'
 
 const BusinessAgility = () => {
   return (
