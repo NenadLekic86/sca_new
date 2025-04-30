@@ -1,7 +1,7 @@
 // import React from 'react'
 import './productOwnership.scss'
 import Waves from '../../assets/images/svg/Waves';
-import ImgOne from '../../assets/images/ProductOwnership/Product Ownership img1.webp'
+import ImgOne from '../../assets/images/ProductOwnership/ProductOwnershipImg1.webp'
 
 const ProductOwnership = () => {
   return (

@@ -1,7 +1,7 @@
 // import React from 'react'
 import './aiProjectManagers.scss'
 import Waves from '../../assets/images/svg/Waves';
-import ImgOne from '../../assets/images/AIProjectManagers/Introduction to AI for Project Managers img1.webp'
+import ImgOne from '../../assets/images/AIProjectManagers/IntroductiontoAIforProjectManagersImg1.webp'
 
 const AIProjectManagers = () => {
   return (

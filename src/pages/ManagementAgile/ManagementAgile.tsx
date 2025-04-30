@@ -1,8 +1,8 @@
 // import React from 'react'
 import './managementAgile.scss'
 import Waves from '../../assets/images/svg/Waves';
-import ImgOne from '../../assets/images/ManagementAgile/Introduction to Project Management and Agile img1.webp'
-import ImgTwo from '../../assets/images/ManagementAgile/Introduction to Project Management and Agile img2.webp'
+import ImgOne from '../../assets/images/ManagementAgile/IntroductiontoProjectManagementandAgileImg1.webp'
+import ImgTwo from '../../assets/images/ManagementAgile/IntroductiontoProjectManagementandAgileImg2.webp'
 
 const ManagementAgile = () => {
   return (

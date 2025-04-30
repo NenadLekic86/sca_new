@@ -1,7 +1,7 @@
 // import React from 'react'
 import './atlassianTools.scss'
 import Waves from '../../assets/images/svg/Waves';
-import ImgOne from '../../assets/images/AtlassianTools/Atlassian Tools Administration img1.webp'
+import ImgOne from '../../assets/images/AtlassianTools/AtlassianToolsAdministrationImg1.webp'
 
 const AtlassianTools = () => {
   return (

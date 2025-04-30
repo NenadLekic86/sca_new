@@ -1,7 +1,7 @@
 // import React from 'react'
 import './scrumMaster.scss'
 import Waves from '../../assets/images/svg/Waves';
-import ImgOne from '../../assets/images/ScrumMaster/Scrum Master img1.webp'
+import ImgOne from '../../assets/images/ScrumMaster/ScrumMasterImg1.webp'
 
 const ScrumMaster = () => {
   return (
