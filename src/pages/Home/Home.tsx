@@ -1,5 +1,5 @@
 // import React from 'react'
-import './Home.scss'
+import './home.scss'
 
 import Hero from '../../components/Hero/Hero'
 import AboutUs from '../../components/AboutUs/AboutUs'
