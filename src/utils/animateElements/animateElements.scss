@@ -1,0 +1,183 @@
+// Base animation properties
+[data-animate] {
+  opacity: 0;
+  will-change: transform, opacity;
+  visibility: hidden;
+}
+
+// Common animation settings
+.animated {
+  visibility: visible;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+// Fade In animations
+.fade-in-initial { opacity: 0; }
+.fade-in.animated {
+  animation-name: fadeIn;
+}
+
+.fade-in-up-initial {
+  opacity: 0;
+  transform: translateY(50px);
+}
+.fade-in-up.animated {
+  animation-name: fadeInUp;
+}
+
+.fade-in-down-initial {
+  opacity: 0;
+  transform: translateY(-50px);
+}
+.fade-in-down.animated {
+  animation-name: fadeInDown;
+}
+
+.fade-in-left-initial {
+  opacity: 0;
+  transform: translateX(-50px);
+}
+.fade-in-left.animated {
+  animation-name: fadeInLeft;
+}
+
+.fade-in-right-initial {
+  opacity: 0;
+  transform: translateX(50px);
+}
+.fade-in-right.animated {
+  animation-name: fadeInRight;
+}
+
+// Fly In animations (larger movement)
+.fly-in-up-initial {
+  opacity: 0;
+  transform: translateY(100px);
+}
+.fly-in-up.animated {
+  animation-name: flyInUp;
+}
+
+.fly-in-down-initial {
+  opacity: 0;
+  transform: translateY(-100px);
+}
+.fly-in-down.animated {
+  animation-name: flyInDown;
+}
+
+.fly-in-left-initial {
+  opacity: 0;
+  transform: translateX(-100px);
+}
+.fly-in-left.animated {
+  animation-name: flyInLeft;
+}
+
+.fly-in-right-initial {
+  opacity: 0;
+  transform: translateX(100px);
+}
+.fly-in-right.animated {
+  animation-name: flyInRight;
+}
+
+// Keyframes
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes flyInUp {
+  from {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes flyInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes flyInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes flyInRight {
+  from {
+    opacity: 0;
+    transform: translateX(100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}

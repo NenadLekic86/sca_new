@@ -1,0 +1,16 @@
+.aboutUs-section {
+    .shape-img-bg {
+        img {
+            -webkit-mask-image:  url('../../assets/images/AboutUsSection/imgMask.png');
+            -webkit-mask-size: 100% 100%;
+            mask-size: 100% 100%;
+            -webkit-mask-repeat: no-repeat;
+            mask-repeat: no-repeat;
+            height: 582px;
+            object-fit: cover;
+        }
+    }
+    .main_content {
+        box-shadow: 0px 25px 70px rgba(8, 10, 55, 0.08);
+    }
+}

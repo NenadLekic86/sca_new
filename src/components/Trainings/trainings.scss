@@ -1,0 +1,80 @@
+.trainings-section {
+    .treining_cards {
+        .training_card {
+            box-shadow: 0px 25px 70px rgba(8, 10, 55, 0.08);
+            padding: 50px 30px;
+            transition: all 0.3s ease-in-out;
+
+            &:hover {
+                transform: translateY(-30px);
+                box-shadow: 0px 35px 80px rgba(8, 10, 55, 0.1);
+            }
+
+            @media screen and (min-width: 1024px) {
+                
+            }
+
+            &::before {
+                content: "";
+                display: block;
+                height: 100%;
+                left: 0;
+                position: absolute;
+                top: 0;
+                opacity: 0.04;
+                width: 100%;
+                z-index: 0;
+                background:
+                url('../../assets/images/Trainings/card_bg_icons.png') no-repeat 0 0;
+                background-size: auto;
+                background-size: cover;
+                -webkit-transition: all 0.5s ease-in-out 0s;
+                -moz-transition: all 0.5s ease-in-out 0s;
+                -ms-transition: all 0.5s ease-in-out 0s;
+                -o-transition: all 0.5s ease-in-out 0s;
+                transition: all 0.5s ease-in-out 0s;
+
+                animation-name: zoom-fade;
+                animation-duration: 5s;
+                animation-iteration-count: infinite;
+                animation-timing-function: linear;
+                -webkit-animation-name: zoom-fade;
+                -webkit-animation-duration: 5s;
+                -webkit-animation-iteration-count: infinite;
+                -webkit-animation-timing-function: linear;
+                -moz-animation-name: zoom-fade;
+                -moz-animation-duration: 5s;
+                -moz-animation-iteration-count: infinite;
+                -moz-animation-timing-function: linear;
+                -ms-animation-name: zoom-fade;
+                -ms-animation-duration: 5s;
+                -ms-animation-iteration-count: infinite;
+                -ms-animation-timing-function: linear;
+                -o-animation-name: zoom-fade;
+                -o-animation-duration: 5s;
+                -o-animation-iteration-count: infinite;
+                -o-animation-timing-function: linear;
+            }
+            &:hover {
+                &::before {
+                    opacity: 0.1;
+                }
+            }
+
+            @keyframes zoom-fade {
+                0% {
+                    -webkit-transform: scale(0.9);
+                    transform: scale(0.9);
+                }
+                50% {
+                    -webkit-transform: scale(1.1);
+                    transform: scale(1.1);
+                }
+                100% {
+                    -webkit-transform: scale(0.9);
+                    transform: scale(0.9);
+                }
+            }
+        }
+    }
+}
